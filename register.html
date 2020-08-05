@@ -12,28 +12,28 @@
 	<form>
 		<label>
 			<p class="label-txt">ENTER YOUR NAME</p>
-			<input type="text" class="input">
+			<input id="name" type="text" class="input">
 			<div class="line-box">
 				<div class="line"></div>
 			</div>
 		</label>
 		<label>
 			<p class="label-txt">ENTER YOUR ADDRESS</p>
-			<input type="text" class="input">
+			<input id="address" type="text" class="input">
 			<div class="line-box">
 				<div class="line"></div>
 		</div>
 		</label>
 		<label>
 			<p class="label-txt">ENTER YOUR CITY</p>
-			<input type="text" class="input">
+			<input id="city" type="text" class="input">
 			<div class="line-box">
 				<div class="line"></div>
 			</div>
 		</label>
 		<label>
 			<p class="label-txt">ENTER YOUR ZIP CODE</p>
-			<input type="text" class="input">
+			<input id="zip" type="text" class="input">
 			<div class="line-box">
 				<div class="line"></div>
 			</div>
@@ -45,12 +45,14 @@
 		</label>
 		<label>
 			<p class="label-txt">ENTER YOUR MESSAGE TO FELLOW DOG WALKERS</p>
-			<input type="text" class="input">
+			<input id="message" type="text" class="input">
 			<div class="line-box">
 				<div class="line"></div>
 			</div>
 		</label>
-		<button class="submit_btn" type="submit">submit</button>
+		<button onclick="saveData()" class="submit_btn" type="submit">submit</button>
 	</form>
 </body>
+	<script src="data.js">
+	</script>
 </html>
