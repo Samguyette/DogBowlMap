@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #fff;
   color: #fff;
 }
-#hero .btn-get-started:hover {
+#hero .btn-register:hover {
   background: #ccc;
   text-decoration: none;
 }
